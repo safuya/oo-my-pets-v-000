@@ -59,7 +59,6 @@ class Owner
   end
 
   def count(pet)
-    binding.pry
     @pets[pet].length
   end
 
